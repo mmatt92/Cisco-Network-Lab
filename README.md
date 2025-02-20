@@ -196,8 +196,21 @@ Using the command line on the LA router type "config t" enter, "ip route 192.168
 <img src="https://imgur.com/OrwFHqa.png" height="80%" width="80%" alt="Using the command line on the NY router type"/>
 <br />
 <br />
-To verify type "do show ip route" enter. Notice that the 192.168.10.0, 192.168.20.0, and 192.168.30.0 networks are visible to the LA router:  <br/>
-<img src="https://imgur.com/nW2GR3V.png" height="80%" width="80%" alt="To verify type"/>
+Now we need to verify PC1 can ping PC2 starting with 192.168.20.2 then 192.168.30.1 and finally 192.168.30.10:  <br/>
+<img src="https://imgur.com/u1jiWtD.png" height="80%" width="80%" alt="To verify type"/>
+<img src="https://imgur.com/pCF1kUN.png" height="80%" width="80%" alt="To verify type"/>
+<img src="https://imgur.com/G7Qj2yF.png" height="80%" width="80%" alt="To verify type"/>
+<img src="https://imgur.com/0XXlGoi.png" height="80%" width="80%" alt="To verify type"/>
+<img src="https://imgur.com/9Jy85yJ.png" height="80%" width="80%" alt="To verify type"/>
+<br />
+<br />
+PC1 can now successfully ping 192.168.30.10. Ping serves as an echo so PC2 should ping back with no problem but to verify go to PC2 CMD prompt and enter 192.168.10.10:  <br/>
+<img src="https://imgur.com/X0jHef7.png" height="80%" width="80%" alt="To verify type"/>
+<img src="https://imgur.com/zI1ySoE.png" height="80%" width="80%" alt="To verify type"/>
+<br />
+<br />
+END OF LAB
+
 
 </p>
 
