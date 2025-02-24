@@ -1,4 +1,4 @@
-<h1>Cisco Packet Tracer Network Lab</h1>
+<h1>Cisco Packet Tracer Network Lab/Static Routing</h1>
 
 
 
